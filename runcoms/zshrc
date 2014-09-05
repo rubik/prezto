@@ -14,3 +14,4 @@ bindkey ';5D' emacs-backward-word
 bindkey ';5C' emacs-forward-word
 
 export WORDCHARS=''  # make it stop at punctuation
+unsetopt SHARE_HISTORY
