@@ -18,6 +18,8 @@ export PATH=$PATH:~/.gem/ruby/2.0.0/bin
 export PATH=$PATH:/root/.gem/ruby/2.0.0/bin
 # Cabal
 export PATH=$PATH:~/.cabal/bin
+# Local bins
+export PATH=$PATH:~/.local/bin
 # Google App Engine
 export PATH=$PATH:~/google_appengine
 # dg
