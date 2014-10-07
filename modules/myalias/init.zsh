@@ -8,6 +8,8 @@ alias orph='sudo pacman -R $(pacman -Qtdq)'
 alias cacheclean='sudo pkgcacheclean -v 1'
 alias dg='python -m dg'
 alias hlint='hlint -c'
+alias exe='exercism'
+alias recon='sudo dhcpcd -k && sudo dhcpcd'
 
 export TERM='rxvt-unicode'
 export EDITOR='vim'
