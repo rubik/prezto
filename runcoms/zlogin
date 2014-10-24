@@ -20,3 +20,4 @@ if (( $+commands[fortune] )); then
   print
 fi
 
+[[ -z $DISPLAY  && $(fgconsole) -eq 1 ]] && startx &

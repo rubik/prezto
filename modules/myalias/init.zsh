@@ -9,7 +9,6 @@ alias cacheclean='sudo pkgcacheclean -v 1'
 alias dg='python -m dg'
 alias hlint='hlint -c'
 alias exe='exercism'
-alias recon='sudo dhcpcd -k && sudo dhcpcd'
 
 export TERM='rxvt-unicode'
 export EDITOR='vim'
@@ -24,5 +23,7 @@ export PATH=$PATH:~/.cabal/bin
 export PATH=$PATH:~/.local/bin
 # Google App Engine
 export PATH=$PATH:~/google_appengine
+# Shell scripts
+export PATH=$PATH:~/Scripts
 # dg
 export PYTHONPATH=$PYTHONPATH:~/dg
