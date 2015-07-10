@@ -5,13 +5,20 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
+zstyle ':prezto:module:editor' key-bindings 'vi'
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-bindkey ';5D' emacs-backward-word
-bindkey ';5C' emacs-forward-word
-
 export WORDCHARS=''  # make it stop at punctuation
 unsetopt SHARE_HISTORY
+
+for keymap in 'emacs' 'viins' 'vicmd'; do
+    # [Ctrl-RightArrow] - move forward one word
+    bindkey -M $keymap '^[[1;5C' forward-word
+    # [Ctrl-LeftArrow] - move backward one word
+    bindkey -M $keymap '^[[1;5D' backward-word
+done
+
+unset keymap

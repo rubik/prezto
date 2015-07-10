@@ -8,12 +8,14 @@ alias orph='sudo pacman -R $(pacman -Qtdq)'
 alias cacheclean='sudo pkgcacheclean -v 1'
 alias dg='python -m dg'
 alias hlint='hlint -c'
+alias ccat='~/exp/bin/pygmentize -O style=fruity -f256 -g'
 alias exe='exercism'
 
 export TERM='rxvt-unicode'
 export EDITOR='vim'
-export PATH=$PATH:~/adt-bundle/sdk/tools
-export PATH=$PATH:~/adt-bundle/sdk/platform-tools
+export PATH=$PATH:~/android-sdk-linux/tools
+export PATH=$PATH:~/android-sdk-linux/platform-tools
+export PATH=$PATH:~/android-studio/bin
 # Ruby gems
 export PATH=$PATH:~/.gem/ruby/2.0.0/bin
 export PATH=$PATH:/root/.gem/ruby/2.0.0/bin
