@@ -10,6 +10,7 @@ alias dg='python -m dg'
 alias hlint='hlint -c'
 alias ccat='~/exp/bin/pygmentize -O style=fruity -f256 -g'
 alias exe='exercism'
+alias matlab='~/MATLAB2016a/bin/matlab -nodisplay -nosplash -nodesktop'
 
 export TERM='rxvt-unicode'
 export EDITOR='vim'
