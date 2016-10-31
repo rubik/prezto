@@ -11,11 +11,12 @@
 
 export TERM='rxvt-unicode'
 export EDITOR='nvim'
+export XDG_CONFIG_HOME="$HOME/.config"
 export PATH=$PATH:/opt/android-sdk/build-tools/23.0.2
 export PATH=$PATH:/opt/android-sdk/platform-tools
 # Ruby gems
-export PATH=$PATH:~/.gem/ruby/2.0.0/bin
-export PATH=$PATH:/root/.gem/ruby/2.0.0/bin
+export PATH=$PATH:~/.gem/ruby/2.3.0/bin
+export PATH=$PATH:/root/.gem/ruby/2.3.0/bin
 # Local bins
 export PATH=$PATH:~/.local/bin
 
