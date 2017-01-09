@@ -19,7 +19,10 @@ export PATH=$PATH:~/.gem/ruby/2.3.0/bin
 export PATH=$PATH:/root/.gem/ruby/2.3.0/bin
 # Local bins
 export PATH=$PATH:~/.local/bin
+# Go packages
+export PATH=$PATH:~/.go/bin
 
+export GOPATH=$HOME/.go
 export PERL5LIB="/home/miki/perl5/lib/perl5${PERL5LIB+:}${PERL5LIB}"
 export PERL_LOCAL_LIB_ROOT="/home/miki/perl5${PERL_LOCAL_LIB_ROOT+:}${PERL_LOCAL_LIB_ROOT}"
 export PERL_MB_OPT="--install_base \"/home/miki/perl5\""
@@ -29,8 +32,13 @@ export PERL_MM_OPT="INSTALL_BASE=/home/miki/perl5"
 # Gtk 3 DPI settins
 #
 
-export GDK_SCALE=2
-export GDK_DPI_SCALE=0.5
+export GDK_SCALE=1
+export GDK_DPI_SCALE=1
+
+#
+# QT HiDPI
+#
+export QT_DEVICE_PIXEL_RATIO=2
 
 #
 # Smart URLs
