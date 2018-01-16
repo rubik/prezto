@@ -15,10 +15,10 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export PATH=$PATH:/opt/android-sdk/build-tools/23.0.2
 export PATH=$PATH:/opt/android-sdk/platform-tools
 # Ruby gems
-export PATH=$PATH:~/.gem/ruby/2.3.0/bin
-export PATH=$PATH:/root/.gem/ruby/2.3.0/bin
+export PATH=$PATH:~/.gem/ruby/2.4.0/bin
 # Local bins
 export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.cargo/bin
 # Go packages
 export PATH=$PATH:~/.go/bin
 
@@ -27,6 +27,10 @@ export PERL5LIB="/home/miki/perl5/lib/perl5${PERL5LIB+:}${PERL5LIB}"
 export PERL_LOCAL_LIB_ROOT="/home/miki/perl5${PERL_LOCAL_LIB_ROOT+:}${PERL_LOCAL_LIB_ROOT}"
 export PERL_MB_OPT="--install_base \"/home/miki/perl5\""
 export PERL_MM_OPT="INSTALL_BASE=/home/miki/perl5"
+
+# Java applications
+export _JAVA_AWT_WM_NONREPARENTING=1
+export MATLAB_LOG_DIR=/tmp
 
 #
 # Gtk 3 DPI settins
@@ -38,7 +42,9 @@ export GDK_DPI_SCALE=1
 #
 # QT HiDPI
 #
-export QT_DEVICE_PIXEL_RATIO=2
+
+export QT_AUTO_SCREEN_SCALE_FACTOR=0
+export QT_SCALE_FACTOR=1
 
 #
 # Smart URLs
