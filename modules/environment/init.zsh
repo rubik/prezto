@@ -15,9 +15,10 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export PATH=$PATH:/opt/android-sdk/build-tools/23.0.2
 export PATH=$PATH:/opt/android-sdk/platform-tools
 # Ruby gems
-export PATH=$PATH:~/.gem/ruby/2.4.0/bin
+export PATH=$PATH:~/.gem/ruby/2.5.0/bin
 # Local bins
 export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.yarn/bin
 export PATH=$PATH:~/.cargo/bin
 # Go packages
 export PATH=$PATH:~/.go/bin
@@ -36,15 +37,15 @@ export MATLAB_LOG_DIR=/tmp
 # Gtk 3 DPI settins
 #
 
-export GDK_SCALE=1
-export GDK_DPI_SCALE=1
+#export GDK_SCALE=1
+#export GDK_DPI_SCALE=1
 
 #
 # QT HiDPI
 #
 
-export QT_AUTO_SCREEN_SCALE_FACTOR=0
-export QT_SCALE_FACTOR=1
+#export QT_AUTO_SCREEN_SCALE_FACTOR=0
+#export QT_SCALE_FACTOR=1
 
 #
 # Smart URLs
