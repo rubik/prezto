@@ -28,3 +28,8 @@ if [ -f '/home/miki/google-cloud-sdk/path.zsh.inc' ]; then source '/home/miki/go
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/miki/google-cloud-sdk/completion.zsh.inc' ]; then source '/home/miki/google-cloud-sdk/completion.zsh.inc'; fi
+
+# added by pipsi (https://github.com/mitsuhiko/pipsi)
+export PATH="/home/miki/.local/bin:$PATH"
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

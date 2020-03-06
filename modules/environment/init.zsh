@@ -17,6 +17,7 @@ export PATH=$PATH:/opt/android-sdk/platform-tools
 # Ruby gems
 export PATH=$PATH:~/.gem/ruby/2.5.0/bin
 # Local bins
+export PATH=$PATH:~/Scripts
 export PATH=$PATH:~/.local/bin
 export PATH=$PATH:~/.yarn/bin
 export PATH=$PATH:~/.cargo/bin
@@ -31,6 +32,7 @@ export PERL_MM_OPT="INSTALL_BASE=/home/miki/perl5"
 
 # Java applications
 export _JAVA_AWT_WM_NONREPARENTING=1
+export _JAVA_OPTIONS=-Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel
 export MATLAB_LOG_DIR=/tmp
 
 #
