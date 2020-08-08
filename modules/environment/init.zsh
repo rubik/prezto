@@ -23,6 +23,8 @@ export PATH=$PATH:~/.yarn/bin
 export PATH=$PATH:~/.cargo/bin
 # Go packages
 export PATH=$PATH:~/.go/bin
+# Kubernetes Krew plugins
+export PATH=$PATH:~/.krew/bin
 
 export GOPATH=$HOME/.go
 export PERL5LIB="/home/miki/perl5/lib/perl5${PERL5LIB+:}${PERL5LIB}"
