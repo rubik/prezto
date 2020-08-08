@@ -5,8 +5,8 @@
 #   Brian Tse <briankftse@gmail.com>
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
-# Screenshots:
-#   http://i.imgur.com/zLZNK.png
+# Modified by:
+#   Michele Lacchia <michelelacchia@gmail.com>
 #
 
 function +vi-git_status {
@@ -43,7 +43,7 @@ function prompt_minimal_setup {
   zstyle ':vcs_info:git*+set-message:*' hooks git_status
 
   # Define prompts.
-  PROMPT='%2~${vcs_info_msg_0_} » '
+  PROMPT='%F{cyan}%2~%F{white}${vcs_info_msg_0_} » '
   RPROMPT=''
 }
 
